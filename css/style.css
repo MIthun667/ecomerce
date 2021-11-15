@@ -3,58 +3,25 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container_1 {
-  padding: 0.8rem 0;
-  display: flex;
-  align-items: center;
-  background: #564755;
-  justify-content: flex-start;
+.container {
+  margin-bottom: 100px;
 }
-.content {
-  padding-right: 2rem;
-  display: flex;
-  justify-content: space-between;
+.bg-color {
+  background: rgb(171, 189, 238);
+  border-radius: 10px;
 }
-.menu {
+.carousel-item {
+  padding: 20px 40px;
 }
-.menu a {
-  color: rgb(63, 36, 138);
-  font-size: 16px;
-  text-decoration: none;
-  padding-left: 1rem;
-  transition: all 0.3s ease;
+.price {
+  color: blueviolet;
 }
-.menu a:hover {
-  color: #ffffff;
-}
-.more_menu {
-  display: flex;
-  justify-content: space-between;
-}
-.language a {
-  color: rgb(63, 36, 138);
-  font-size: 16px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-.language a:hover {
-  color: #ffffff;
-}
-.holo {
-  display: flex;
-  padding-left: 1rem;
-}
-.icon img {
-  color: #564755;
-  position: relative;
-}
-.holo a {
-  color: rgb(63, 36, 138);
-  font-size: 16px;
-  text-decoration: none;
-  position: absolute;
-  transition: all 0.3s ease;
-}
-.holo a:hover {
-  color: #ffffff;
+.buy-now-btn {
+  background-image: linear linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  background: #ff136f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
 }
